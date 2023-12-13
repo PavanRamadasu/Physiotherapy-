@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,67 +29,72 @@
     
   </head>
   <body>
-  
-  <div class="site-wrap">
 
-    <div class="site-mobile-menu">
+    <div class="logo-bar d-flex flex-row">
+    <a href="index.html" class="text-white"><img class="img-logo m-1" src="images/physicaltherapy logo.jpeg" /></a>
+      <h1 class="heading-navbar"><span class="heading-navbar-span">Susheel's Spine Care</span> Clinic </h1>
+    </div>
+  <div class="d-flex flex-column">
+  <div class="site-mobile-menu ">
       <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
+        <div class="site-mobile-menu-close">
           <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
+  
     
-    <header class="site-navbar" role="banner">
-
+ <div class="site-navbar mt-5" role="banner">
       <div class="container">
+        
         <div class="row align-items-center">
           
           <div class="col-11 col-xl-4">
-            <a href="index.html" class="text-white mt-0 mb-10"><img class="w-75" src="images/physicaltherapy logo.jpg" /><span class="text-info"></span> </a>
           </div>
-          <div class="col-12 col-md-8 d-none d-xl-block">
+          <div class="col-12 col-md-8 d-none d-xl-block ">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active"><a href="index.html"><span>Home</span></a></li>
-                <li class="has-children">
-                  <a href="services.html"><span>Services</span></a>
+                <li class="has-children" class="active" >
+                  <a href="services.html" ><span >Exercises</span></a>
                   <ul class="dropdown arrow-top">
-                    <li><a href="#">Physical Therapy</a></li>
-                    <li><a href="#">Chiropractic Therapy</a></li>
-                    <li><a href="#">Osteopathy Therapy</a></li>
+                    <li ><a href="services.html">Physiotherapy</a></li>
+                    <li ><a href="services.html">Chiropractic Therapy</a></li>
+                    <li ><a href="services.html">Osteopathy Therapy</a></li>
+                    <li ><a href="services.html">Somatic therapy</a></li>
                     <li class="has-children">
                       <a href="#">Dropdown</a>
                       <ul class="dropdown">
-                        <li><a href="#">Physical Therapy</a></li>
-                        <li><a href="#">Chiropractic Therapy</a></li>
-                        <li><a href="#">Osteopathy Therapy</a></li>
+                        <li><a href="#">Fascial Distortion Model</a></li>
+                        <li><a href="#">Dry needling & Medical Acupuncture</a></li>
+                        <li><a href="#">Kinesiology Taping</a></li>
+                        <li><a href="#">Cupping Theraphy</a></li>
+                        <li><a href="#">Instrument-assisted soft tissue mobilization </a></li>
+                        <li><a href="#">Moxibustion</a></li>
+                        <li><a href="#">Somatic Theraphy</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                <li><a href="about.html"><span>About</span></a></li>
-                <li><a href="blog.html"><span>Blog</span></a></li>
-                <li><a href="contact.html"><span>Contact</span></a></li>
+                <li><a href="about.html"><span >About</span></a></li>
+                <li><a href="blog.html"><span  >Blog</span></a></li>
+                <li><a href="contact.html"><span >Contact</span></a></li>
               </ul>
             </nav>
           </div>
 
 
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu"></span></a></div>
 
           </div>
 
         </div>
       </div>
       
-    </header>
-
-
-
-  
+    </div> 
+              
 
     <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
@@ -98,9 +104,9 @@
             
             <div class="row justify-content-center mb-4">
               <div class="col-md-10 text-center">
-                <h1 data-aos="fade-up" class="mb-5">Welcome to Dr. Susheel's Spine Care Clinic <br/><span class="typed-words"></span></h1>
+                <h1 data-aos="fade-up" ><br/><span class="typed-words"></span></h1>
 
-                <p data-aos="fade-up" data-aos-delay="100"><a href="#" class="btn btn-info btn-pill">Get Started</a></p>
+                <p data-aos="fade-up" data-aos-delay="100"><a href="#aboutHome" class="btn btn-info btn-pill">Get Started</a></p>
               </div>
             </div>
 
@@ -110,7 +116,7 @@
     </div>  
 
 
-
+    <section id="aboutHome">
     <div class="block-quick-info-2">
       <div class="container">
         <div class="block-quick-info-2-inner">
@@ -159,33 +165,41 @@
     <div class="block-services-1 py-5">
       <div class="container">
         <div class="row">
-          <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+          <!--<div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
             <h3 class="mb-3">What We Offer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia rerum, aliquid velit minima inventore ad consequatur accusamus dolor.</p>
             <p><a class="text-info" href="#" class="d-inline-flex align-items-center block-service-1-more"><span>See all services</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
-          </div>
+          </div>-->
           <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
             <div class="block-service-1-card">
               <a href="#" class="thumbnail-link d-block mb-4"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
               <h3 class="block-service-1-heading mb-3"><a href="#">Physical Therapy</a></h3>
-              <div class="block-service-1-excerpt"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim odit molestias inventore, id sed, in harum tenetur earum.</p></div>
-              <p><a class="text-info" href="#" class="d-inline-flex align-items-center block-service-1-more"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+              <div class="block-service-1-excerpt mb-5"><p class="mb-5">Physiotherapy helps to restore movement and function when someone is affected by injury, illness or disability. It can also help to reduce your risk of injury or illness in the future. It takes a holistic approach that involves the patient directly in their own care.</p></div>
+              <p class="mt-5"><a class="text-info" href="services.html" class="mt-5 d-inline-flex align-items-center block-service-1-more"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
             </div>
           </div>
           <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
             <div class="block-service-1-card">
               <a href="#" class="thumbnail-link d-block mb-4"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
               <h3 class="block-service-1-heading mb-3"><a href="#">Chiropractic Therapy</a></h3>
-              <div class="block-service-1-excerpt"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim odit molestias inventore, id sed, in harum tenetur earum.</p></div>
-              <p><a  class="text-info" href="#" class="d-inline-flex align-items-center block-service-1-more"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+              <div class="block-service-1-excerpt"><p class="mb-5">Chiropractors usually manipulate the body's alignment to relieve pain, improve function and help the body heal itself. The main focus of chiropractic therapy is spinal manipulation, it also includes other treatments like manipulative therapies, postural exercises, ergonomic training, and patient education.</p></div>
+              <p><a  class="text-info " href="services.html" class=" mt-5 d-inline-flex align-items-center block-service-1-more"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
             </div>
           </div>
           <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
             <div class="block-service-1-card">
               <a href="#" class="thumbnail-link d-block mb-4"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
               <h3 class="block-service-1-heading mb-3"><a href="#">Osteopathy Therapy</a></h3>
-              <div class="block-service-1-excerpt"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim odit molestias inventore, id sed, in harum tenetur earum.</p></div>
-              <p><a href="#" class="d-inline-flex align-items-center block-service-1-more text-info"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+              <div class="block-service-1-excerpt"><p class="mb-5">An osteopath focuses on your whole body, including the soft tissues (such as muscles, ligaments and tendons), the spine and nervous system, and may use a variety of different hands-on methods, including: Spinal manipulation. Soft tissue massage techniques.</p></div>
+              <p><a href="services.html" class="mt-5 align-items-center block-service-1-more text-info"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+            </div>
+          </div>
+          <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+            <div class="block-service-1-card">
+              <a href="#" class="thumbnail-link d-block mb-4"><img src="https://www.verywellmind.com/thmb/vZmlbeeM81DMuB94UOAgpkM7iiE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/somatic-therapy-372f274489d0427088efead4e31eb9c5.jpg" alt="Image" class="img-fluid"></a>
+              <h3 class="block-service-1-heading mb-3"><a href="#">Somatic Therapy</a></h3>
+              <div class="block-service-1-excerpt"><p class="mb-5">Somatic symptom disorder is diagnosed when a person has a significant focus on physical symptoms, such as pain, weakness or shortness of breath, to a level that results in major distress and/or problems functioning. The individual has excessive thoughts, feelings and behaviors relating to the physical symptoms.</p></div>
+              <p><a class="text-info" href="services.html" class=" mt-5 d-inline-flex align-items-center block-service-1-more"><span>Find out more</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
             </div>
           </div>
         </div>
@@ -209,7 +223,7 @@
             <div class="col-sm-4">
               <div class="counter">
                 <div class="number-wrap">
-                  <span class="block-counter-1-number" data-number="3">0</span><span class="append">K</span>
+                  <span class="block-counter-1-number" data-number="10">0</span><span class="append">K</span>
                 </div>
                 <span class="block-counter-1-caption">Happy Customers</span>
               </div>
@@ -217,7 +231,7 @@
             <div class="col-sm-4">
               <div class="counter">
                 <div class="number-wrap">
-                  <span class="block-counter-1-number" data-number="7">0</span><span class="append"></span>
+                  <span class="block-counter-1-number" data-number="25">0</span><span class="append"></span>
                 </div>
                 <span class="block-counter-1-caption">Years of Experience</span>
               </div>
@@ -225,7 +239,7 @@
             <div class="col-sm-4">
               <div class="counter">
                 <div class="number-wrap">
-                  <span class="block-counter-1-number" data-number="100">0</span><span class="append">%</span>
+                  <span class="block-counter-1-number" data-number="1000">0</span><span class="append">%</span>
                 </div>
                 <span class="block-counter-1-caption">Satisfaction</span>
               </div>
@@ -234,12 +248,12 @@
         </div>
       </div>
     </div>
-
+    <section id="ourTechniques">
     <div class="site-section bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 text-center">
-            <h2 class="site-section-heading text-center font-secondary">Our Special Offers</h2>
+            <h2 class="site-section-heading text-center font-secondary">Our Techniques</h2>
           </div>
         </div>
       </div>
@@ -248,9 +262,9 @@
           <div class="half-wrap d-block d-md-flex">
             <div class="half bg-white d-block d-md-flex arrow-right">
               <div class="text">
-                <h2>Physical Therapy</h2>
+                <h2>Fascial Distortion Model</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
-                <p><a href="course-details.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
               </div>
             </div>
             <div class="half bg-img img" style="background-image: url('images/img_1.jpg');"></div>
@@ -258,9 +272,9 @@
          <div class="half-wrap d-block d-md-flex">
             <div class="half bg-white d-block d-md-flex arrow-right">
               <div class="text">
-                <h2>Chiropractic Therapy</h2>
+                <h2>Dry needling & Medical Acupuncture</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
-                <p><a href="course-details.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
               </div>
             </div>
             <div class="half bg-img img" style="background-image: url('images/img_2.jpg');"></div>
@@ -271,26 +285,117 @@
             <div class="half-wrap d-block d-md-flex">
               <div class="half bg-white d-block d-md-flex arrow-left order-md-2">
                 <div class="text">
-                  <h2>Osteopathy Therapy</h2>
+                  <h2>Kinesiology Taping</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
-                  <p><a href="course-details.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                  <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
                 </div>
               </div>
-              <div class="half bg-img img" style="background-image: url('images/img_3.jpg');"></div>
+              <div class="half bg-img img" style="background-image: url('https://www.verywellmind.com/thmb/vZmlbeeM81DMuB94UOAgpkM7iiE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/somatic-therapy-372f274489d0427088efead4e31eb9c5.jpg');"></div>
             </div>
-            <!--<div class="half-wrap d-block d-md-flex">
+            <div class="half-wrap d-block d-md-flex">
               <div class="half bg-white  d-block d-md-flex arrow-left order-md-2">
                 <div class="text">
-                  <h2>Chiropractic Therapy</h2>
+                  <h2>Cupping Theraphy</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
-                  <p><a href="course-details.html" class="btn btn-primary btn-sm btn-pill">Learn More</a></p>
+                  <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
                 </div>
               </div>
               <div class="half bg-img img" style="background-image: url('images/img_4.jpg');"></div>
-            </div>-->
+            </div>
           </div>
+
+          <div class="d-block d-lg-flex">
+            <div class="half-wrap d-block d-md-flex">
+              <div class="half bg-white d-block d-md-flex arrow-right">
+                <div class="text">
+                  <h2>Instrument-assisted soft tissue mobilization</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
+                  <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                </div>
+              </div>
+              <div class="half bg-img img" style="background-image: url('images/img_1.jpg');"></div>
+            </div>
+           <div class="half-wrap d-block d-md-flex">
+              <div class="half bg-white d-block d-md-flex arrow-right">
+                <div class="text">
+                  <h2>Moxibustion</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
+                  <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                </div>
+              </div>
+              <div class="half bg-img img" style="background-image: url('images/img_2.jpg');"></div>
+            </div> 
+          </div>
+  
+          <div class="d-block d-lg-flex ">
+              <div class="half-wrap d-block d-md-flex">
+                <div class="half bg-white d-block d-md-flex arrow-left order-md-2">
+                  <div class="text">
+                    <h2>Somatic Theraphy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
+                    <p><a href="services.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                  </div>
+                </div>
+                <div class="half bg-img img" style="background-image: url('https://www.verywellmind.com/thmb/vZmlbeeM81DMuB94UOAgpkM7iiE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/somatic-therapy-372f274489d0427088efead4e31eb9c5.jpg');"></div>
+              </div>
+              <!--<div class="half-wrap d-block d-md-flex">
+                <div class="half bg-white  d-block d-md-flex arrow-left order-md-2">
+                  <div class="text">
+                    <h2>Somatic Therapy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, unde!</p>
+                    <p><a href="course-details.html" class="btn btn-info btn-sm btn-pill">Learn More</a></p>
+                  </div>
+                </div>
+                <div class="half bg-img img" style="background-image: url('images/img_4.jpg');"></div>
+              </div>
+            -->
+            </div>
       </div>
-    </div>
+    </div></section>
+    <section id="youtube" class="youtube-page p-4">
+      <h2 class="about-page-head">Watch Videos</h2>
+      <div class="row ">
+          <!-- Add YouTube video cards here -->
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="embed-responsive embed-responsive-16by9 m-1">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UIyvAmPFn8g?si=YAVEjJZHbffvu_3I" allowfullscreen></iframe>
+                  </div>
+
+              </div>
+          </div>
+
+
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="embed-responsive embed-responsive-16by9 m-1">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nNtp5k5Cdds?si=o04vg1ZijIMKtkLb" allowfullscreen></iframe>
+                  </div>
+
+
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="embed-responsive embed-responsive-16by9  m-1 ">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7aMJOphEPsY?si=PmiXMlB8-A10z0qQ" allowfullscreen></iframe>
+                  </div>
+
+
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <div class="embed-responsive embed-responsive-16by9  m-1 ">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LiXOMLoDm68?si=Gli_ezfTtmAJsxjR" allowfullscreen></iframe>
+                </div>
+
+
+            </div>
+        </div>
+          <!-- Add more cards as needed -->
+      </div>
+  </section>
 
     <div class="site-section">
       <div class="container">
@@ -307,41 +412,42 @@
 
               <div class="d-block block-testimony mx-auto text-center">
                 <div class="person w-25 mx-auto mb-4">
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
+                  <img src="https://lh3.googleusercontent.com/a-/ALV-UjVYnZFhzuKxwy-lxhTCSCoI9iatNkYLz_63OLXgAQPvdLE=w54-h54-p-rp-mo-br100" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
                 </div>
                 <div>
-                  <h2 class="h5 mb-4">Katie Johnson</h2>
-                  <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                  <h2 class="h5 mb-4">Pramod Kumar</h2>
+                  <blockquote>&ldquo;I visited Dr. Susheel's Spine Care Clinic regarding my back pain. I got immense relief in just few sittings it worked like wonder. Dr. Susheel is one of the finest Physio in Hyderabad with immense knowledge and expertise. I recommend Dr. Susheel's Clinic for physiotherapy and chiropractic treatments.&rdquo;</blockquote>
                 </div>
               </div>
 
               <div class="d-block block-testimony mx-auto text-center">
                 <div class="person w-25 mx-auto mb-4">
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
+                  <img src="https://lh3.googleusercontent.com/a-/ALV-UjXw3SrXn5DPRIcNmH9BXNjpkYx4jGsg9uESdVHehWJt6Vk=w32-h32-p-rp-mo-br100" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
                 </div>
                 <div>
-                  <h2 class="h5 mb-4">Jun Mars</h2>
-                  <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                  <h2 class="h5 mb-4">Joel Indrupati</h2>
+                  <blockquote>&ldquo;After our mother had had a knee replacement surgery, in her 70s, Dr Susheel ensured that her physiotherapy went well. His expert hands and his encouraging words have done the magic!
+                    She is alright now. She's able to walk well, with comfort and confidence.&rdquo;</blockquote>
                 </div>
               </div>
 
               <div class="d-block block-testimony mx-auto text-center">
                 <div class="person w-25 mx-auto mb-4">
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
+                  <img src="https://lh3.googleusercontent.com/a-/ALV-UjUN3IrCYL0HprL9Xqquc1IwKGvaZknN78l95dNFHNv9kQ=w54-h54-p-rp-mo-br100" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
                 </div>
                 <div>
-                  <h2 class="h5 mb-4">Katie Johnson</h2>
-                  <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                  <h2 class="h5 mb-4">Ramya Sri</h2>
+                  <blockquote>&ldquo;Went with lot of inhibitions, but back ache cured very well post sessions. He tries all methods to give patient relief like physiotherapy, chiropractic and acupuncture techniques.&rdquo;</blockquote>
                 </div>
               </div>
 
               <div class="d-block block-testimony mx-auto text-center">
                 <div class="person w-25 mx-auto mb-4">
-                  <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
+                  <img src="https://lh3.googleusercontent.com/a-/ALV-UjXa9kJ5hYev1Wic7zeUif0pny_3o6vMf7Wn1JMjTXKbeg=w54-h54-p-rp-mo-br100" alt="Image" class="img-fluid rounded-circle w-50 mx-auto">
                 </div>
                 <div>
-                  <h2 class="h5 mb-4">Jun Mars</h2>
-                  <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium qui optio, possimus necessitatibus voluptate aliquam velit nostrum tempora ipsam!&rdquo;</blockquote>
+                  <h2 class="h5 mb-4">MURALI KRISHNA Renduchintala</h2>
+                  <blockquote>&ldquo;I am 70 years of age and have been afflicted by Rheumatoid Arthritis when I was 30 years, which impacted my fingers and knees.  In order not to allow further deterioration, I undergo physiotherapy for at least 4-5 days a week.  I have been visiting this clinic since about 5 years.   Dr Susheel Kumar (earlier Dr Ashok) is in charge of the clinic.  I am highly satisfied with the sincerity of the therapy and I strongly recommend this clinic to persons in need of physiotherapy.&rdquo;</blockquote>
                 </div>
               </div>
 
@@ -376,28 +482,29 @@
               <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="blog-single.html">Blog-Info</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
-                <h2 class="footer-heading mb-4">Products</h2>
+                <h2 class="footer-heading mb-4">Services</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#ourTechniques">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="services.html">Testimonials</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
-                <h2 class="footer-heading mb-4">Features</h2>
+                <h2 class="footer-heading mb-4">Techniques</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#ourTechniques">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="services.html">Testimonials</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-md-6 mb-5 mb-lg-0 col-lg-3">
@@ -411,7 +518,7 @@
           </div>
           <div class="col-lg-3">
             <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p>At Dr. Susheel's Spine Care Clinic, we are committed to delivering personalized care that meets your unique needs. Contact us today to schedule a consultation and embark on your journey towards optimal health and wellness.</p>
             <form action="#" method="post" class="subscription">
               <div class="input-group mb-3  d-flex align-items-stretch">
                 <input type="text" class="form-control bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
@@ -424,14 +531,14 @@
           <div class="col-12 text-md-center text-left">
             <p>
             
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <img class="company-logo w-20" src="https://cdn.iconscout.com/icon/free/png-256/omega-watches-3421671-2854590.png=" /> Omega InfoTech</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |Developed by <img class="company-logo w-20" src="https://cdn.iconscout.com/icon/free/png-256/omega-watches-3421671-2854590.png=" /> Omega InfoTech</a>
             
             </p>
           </div>
         </div>
       </div>
-    </footer>
-  </div>
+    </footer></section>
+  </div></div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -466,8 +573,4 @@
   <script src="js/main.js"></script>
   
   </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> ee22711c0ba7b8ed4000d9eae028f9e81bb0b40c
